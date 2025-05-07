@@ -1,0 +1,98 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header-left {
+    width:70%;
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:269px;
+    height:49px;
+    border-left: 1px solid black;
+    margin-left: 20px; 
+    padding-left: 20px; 
+}
+
+.block {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    width: 30%; 
+    height: 100%; 
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-part {
+    width: 28px;
+    height: 79%;
+    
+}
+
+.footer {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    height: 8%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.footer-bottom {
+    height: 80%;
+    display: flex;
+    position: relative;
+}
+
+.footer-left 
+{  
+    height: 51px;
+}
+
+.footer-right {
+    width: 27px;
+    height: 51px;
+}
